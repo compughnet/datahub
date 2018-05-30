@@ -103,11 +103,7 @@
       </viewAttribute>
       <viewAttribute hidden="true" id="JOIN$PRODUCTID$PRODUCTID"/>
     </viewAttributes>
-    <calculatedViewAttributes>
-      <calculatedViewAttribute id="CC_1" datatype="DECIMAL" length="10" scale="2" expressionLanguage="SQL">
-        <formula>&quot;UNITPRICE&quot;*&quot;QUANTITY&quot;</formula>
-      </calculatedViewAttribute>
-    </calculatedViewAttributes>
+    <calculatedViewAttributes/>
     <restrictedViewAttributes/>
     <input node="Projection_1">
       <mapping xsi:type="Calculation:AttributeMapping" target="PRODUCTNAME" source="PRODUCTNAME"/>
