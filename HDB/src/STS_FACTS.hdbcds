@@ -1,0 +1,26 @@
+namespace datahub.HDB;
+
+
+/*@@layout{"layoutInfo":{"x":-597,"y":-159.5}}*/
+entity STS_FACTS {
+    ORDERID           : Integer;
+    PRODUCTID         : Integer;
+    CUSTOMERID        : Integer;
+    EMPLOYEEID        : Integer;
+    PROMOTIONID       : Integer;
+    TERRITORYID       : Integer;
+    ORDERPERIODID     : Integer;
+    REQUIREDPERIODID  : Integer;
+    SHIPPEDPERIODID   : Integer;
+    SHIPPERID         : Integer;
+    UNITPRICE         : Integer;
+    QUANTITY          : Integer;
+    DISCOUNT          : Integer;
+    UNITSALES         : Integer;
+    NETSALES          : Decimal(10, 2);
+    UNITCOST          : Integer;
+    FREIGHT           : Integer;
+    COST              : Integer;
+    QUANTITYORDERED   : Integer;
+    DELIVEREDPERIODID : Integer;
+};

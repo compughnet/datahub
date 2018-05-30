@@ -1,0 +1,18 @@
+namespace datahub.HDB;
+
+
+/*@@layout{"layoutInfo":{"x":-597,"y":-159.5}}*/
+entity STS_PRODUCTS {
+    key PRODUCTID           : Integer;
+        CATEGORYID          : Integer;
+        LINEID              : Integer;
+        PRODUCTNAME         : String(40);
+        PRODUCTDESCRIPTION  : String(40);
+        CATEGORYNAME        : String(30);
+        CATEGORYDESCRIPTION : String(30);
+        LINENAME            : String(30);
+        LINEDESCRIPTION     : String(30);
+        DISCONTINUED        : Integer;
+        CAPACITY            : String(10);
+        SCREENSIZE          : String(10);
+};

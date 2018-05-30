@@ -1,0 +1,28 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "datahub.HDB::STS_PRODUCTS",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "datahub.HDB::STS_DIMPRODUCT.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "PRODUCTID",
+        "LINEID",
+        "PRODUCTNAME",
+        "PRODUCTDESCRIPTION",
+        "CATEGORYNAME",
+        "CATEGORYDESCRIPTION",
+        "LINENAME",
+        "LINEDESCRIPTION",
+        "DISCONTINUED",
+        "CAPACITY",
+        "SCREENSIZE"
+                ]
+            }
+        }
+    ]
+}
